@@ -1,0 +1,35 @@
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: red;
+}
+.container img {
+  object-fit: fill;
+  margin-top: 5em;
+  width: 70em;
+  height: 31em;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 62%;
+  right: 16em;
+  transform: translate(-40%, -60%);
+}
+.login-button {
+  width: 15em;
+  background-color: rgb(84, 130, 53);
+  border: none;
+  outline: none;
+  height: 2em;
+  color: #fff;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: #4d84e2;
+}

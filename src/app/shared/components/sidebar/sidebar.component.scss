@@ -1,0 +1,15 @@
+:host {
+  
+  .list-item-active 
+  {
+    background-color: rgb(84, 130, 53);    
+  }
+  .mat-divider {
+    border-top-color: rgb(244, 246, 243); 
+  }
+  a.mdc-list-item img {
+    margin-right: 0.2em;  
+    object-fit: fill;     
+  } 
+  
+}

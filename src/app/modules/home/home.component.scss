@@ -1,0 +1,47 @@
+.mat-table {
+
+  display: block;
+}
+.mat-row {
+  display: flex;
+  border-bottom-width: 1px; 
+  align-items: center;
+  min-height: 50px;
+  padding: 0 24px;
+  overflow-x: auto;
+}
+.mat-cell-right {
+  flex: 0;  
+  align-content: flex-end; 
+}
+.mat-cell {
+  flex: 1; 
+}
+.icon {
+  width: 4em;
+  object-fit: fill;
+  cursor: pointer;
+}
+.arrow-icon 
+{
+  width: 4em;
+  object-fit: fill;  
+}
+.icon-top  {
+  width: 34em;
+  height: 5em;
+  object-fit: fill;
+}
+.mat-top {
+  flex:  1; 
+  align-self: flex-start;
+}
+
+.mat-bottom {
+  flex: 0; 
+}
+.icon-bottom {
+  width: 58em;
+  height: 5em;
+  object-fit: fill;
+}
